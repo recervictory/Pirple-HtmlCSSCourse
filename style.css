@@ -22,3 +22,49 @@ body {
   overflow-x: hidden;
   padding-top: 20px;
 }
+.paragraph {
+  text-align: justify;
+  background-color: #c1ff00;
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+  border: 2px solid;
+}
+
+.headtitle {
+  text-align: center;
+  background: #ffd700;
+  padding: 2rem;
+}
+
+#ingredients {
+  text-align: center;
+  background: #ffd700;
+  border: 2px solid;
+}
+
+#direction {
+  text-align: center;
+  background: #ffd700;
+  border: 2px solid;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 180px;
+  height: 120px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
