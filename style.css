@@ -1,36 +1,24 @@
 body {
   background-color: #00ffcd;
 }
-p {
-  font-size: 18px;
-  font-weight: bold;
-  font-
-}
 
-h1 {
-  text-decoration: underline;
-  font-weight: bold;
-  color: #002a22;
-  padding : 2px 3px;
-}
 
-h2 {
-  padding-bottom : 2px;
-  
-}
-
-li {
-  font-size: 20px;
-  font-weight: bold;
-  color: #002a22;
-  padding-bottom: 2px; 
-}
-main {
+.main {
   background-color:#00ff9a;
   padding-top: 10px;
+  margin-left: 300px;
+  padding-left: 10px;
+ 
 }
 
-section {
-  background-color: #00ff67;
-  padding-top: 10px;
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: limegreen;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
